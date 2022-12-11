@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .form,.list{
+    border:2px solid red
+} */
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width: 600px;
+    width:80%;
+    margin: 0 auto;
+    background-color: #cdcdcd;
+    padding:2rem;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:1rem;
+}
+input{
+    padding:10px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+.form textarea{
+    resize:none;
+    border:none;
+    outline:none;
+    margin: 0.8rem 0;
+    font-size: 1.1rem;
+    padding:10px;
+}
+
+form button{
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+    width: 30%;
+    align-self: center;
+    font-weight:bold;
+}
+form button:hover{
+    background: black;
+    color: white;
+    opacity:0.8;
+}
+.list h1{
+    text-align: center;
+    font-weight: 500;
+    padding:5px 0;
+    color:white;
+    background-color: black;
+    opacity:0.5;
+
+}
+.list ul li{
+    list-style-type: none;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    background-color: rgb(159, 152, 152);
+    display: flex;
+    flex-direction: column;
+    
+}
+.list p{
+    padding:10px ;
+}
+.list .li__title{
+font-size: 1.5rem;
+border-bottom: 2px solid gray;
+font-weight: bolder;
+}
+.list .li__desc{
+font-size: 1.3rem;
+
+}
+.btn-div{
+    display: flex;
+}
+.delete-btn,.done-btn{
+ flex:1 1 ;
+ padding:5px 0;
+}
